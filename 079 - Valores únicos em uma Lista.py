@@ -14,7 +14,7 @@ while True:
             numeros.append(n)
             print('Valor adicionado com sucesso!')
         else:
-            print('Valor já foi digitado! Não vouadicionado!')
+            print('Valor já foi digitado! Não vou adicionado!')
             localiza = ''
     continuar = str(input('Deseja continuar?[s/n] ')).upper().strip()[0]
     if continuar in 'Nn':
